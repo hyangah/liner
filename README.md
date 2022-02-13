@@ -1,3 +1,8 @@
+**This is a fork of github.com/peterh/liner, customized for use in Delve.
+We do not plan to support use cases outside Delve's nor become a general
+replacement of github.com/peterh/liner.***
+
+
 Liner
 =====
 
@@ -52,7 +57,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/peterh/liner"
+	"github.com/go-delve/liner"
 )
 
 var (
@@ -98,4 +103,4 @@ func main() {
 }
 ```
 
-For documentation, see http://godoc.org/github.com/peterh/liner
+For documentation, see http://godoc.org/github.com/go-delve/liner
